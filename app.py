@@ -14,9 +14,9 @@ from services.result_rationalizer import rationalize_result
 import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
-openai_api_key = st.secrets["api_key_openai"]
+openai_api_key = st.secrets["openai_api_key"]
 bing_api_key = st.secrets["bing_api_key"]
-POLYGON_API_KEY = bing_api_key["POLYGON_API_KEY"]
+POLYGON_API_KEY = st.secrets["POLYGON_API_KEY"]
 
 print(yf.__version__)
 
