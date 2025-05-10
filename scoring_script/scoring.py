@@ -77,7 +77,7 @@ def compute_technical_indicators(data):
 # --- Fetch News Sentiment from Bing ---
 def fetch_news_sentiment(query, count=10):
     url = "https://api.bing.microsoft.com/v7.0/news/search"
-    headers = {"Ocp-Apim-Subscription-Key": BING_API_KEY}
+    headers = {"Ocp-Apim-Subscription-Key": bing_api_key}
     params = {"q": query, "count": count, "mkt": "en-US", "freshness": "Week"}
 
     response = requests.get(url, headers=headers, params=params)
