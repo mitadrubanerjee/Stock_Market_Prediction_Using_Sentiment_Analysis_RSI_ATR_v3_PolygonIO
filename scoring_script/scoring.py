@@ -13,7 +13,7 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 # Load secrets from .env (API keys)
 openai_api_key = st.secrets["openai_api_key"]
 bing_api_key = st.secrets["bing_api_key"]
-POLYGON_API_KEY = bing_api_key["POLYGON_API_KEY"]
+POLYGON_API_KEY = st.secrets["POLYGON_API_KEY"]
 
 # Load the trained model and scaler
 model_path = 'model/model.pkl'
