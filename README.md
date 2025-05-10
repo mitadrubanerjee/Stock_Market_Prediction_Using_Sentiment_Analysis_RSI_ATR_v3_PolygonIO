@@ -1,0 +1,2 @@
+# Stock_Market_Prediction_Using_Sentiment_Analysis_RSI_ATR_v3_PolygonIO
+Stock_Market_Prediction_Using_Sentiment_Analysis_RSI_ATR_v3_PolygonIO: This repo uses the latest version of the app using Polygon.io
